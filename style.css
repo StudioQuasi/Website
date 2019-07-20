@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+body{font: 24px/32px Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;color:#1F1F21; font-weight: 400;}
+/*body {position: relative;background-image: url("images/bg_StudioQuasi.png"); background-repeat: no-repeat;  background-size: 100%; background-attachment: fixed; background-color: #f1f1f1};*/
+body {position: relative;background-image: url("images/bg_studio.png"), url("images/bg_Quasi.png"); background-position: left top, right top; background-repeat: no-repeat; background-size: auto 100%; z-index: 100; background-attachment: fixed; background-color: #f1f1f1};
+p {text-align: left;}
+a {text-decoration:underline; color: inherit; }
+a:hover{color: #ff211f; text-decoration: underline;}
+
+a>img:hover{opacity: 0.7; transition: opacity .5s;}
+
+
+.logoRt {position: fixed; size: auto 100%;}
+
+h1 {font: 48px/58px Roboto, sans-serif;color:#1F1F21; font-weight: 900; margin-top: 0; padding-top: 2%}
+h1>a {text-decoration: none; }
+.right {text-align: right; }
+.spacer{padding-top: 25%}
+.spacerSm{padding-top: 10%}
+.spacerXSm{padding-top: 1%;}
+.spacerBttm{padding-bottom: 20%;}
+
+
+.back-home a{
+    font-size: 24px; 
+    font-weight: 900; 
+    text-decoration: none;
+    -webkit-transition: 
+    -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease;
+}
+.back-homeEnd a{
+    font-size: 48px;
+    font-weight: 900;
+    text-decoration: none;
+    padding-bottom: 20%;
+}
+
+.back-home a:before {
+    content: '←'; 
+    display: inline-block; 
+    margin-right: .2em;
+    }
+
+.back-homeEnd a:before {
+    content: '←'; 
+    display: inline-block; 
+    margin-right: .2em;
+    }
+
+.caption {font: 18.5px/26px Roboto, sans-serif; font-weight: 400; color:#1f1f21; padding-top: 1%}
+.title {font: 28px/32px Roboto, sans-serif; font-weight: 600; color:#1f1f21; padding-top: 1%;}
+.title a{text-decoration: none; }
+.contact {font: 24px/30px Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif; font-weight: 900; letter-spacing: 0.03em; color:#1F1F21;} 
+
+
+video iframe{
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.video-responsivesq{
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height: 0;
+
+}
+
+.video-responsivesq iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+.video-responsiveWide{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height: 0;
+
+}
+
+.video-responsiveWide iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+.video {padding-top: 40%;}
+.video-others {padding-top: 20%}
+.header {position: fixed; top: 2.5%; right: 2.5%;}
+.footer {position: fixed; bottom: 3%; left: 1.5%; }
+
+.vertical-text {transform: rotate(-90deg); float: left;}
+
+.textPos {padding-right: 27%; padding-left:20%;}
+.contentPos {padding: 0 22% 0 14%; }
+
+.border {border-top: 1px solid #c8c6c6; width: 50%}
+
+
+
+@media (max-width: 1440px){
+    .textPos {padding-right: 27%; padding-left:20%;}
+    .contentPos {padding: 0 22% 0 14%;}
+    body {background-size: auto 100%;} 
+}
+
+
+@media (max-width: 1024px){ 
+    body {font-size: 20px; line-height: 28px; background-size: auto 90%;} 
+    .textPos {padding-right: 30%; padding-left:22%;}
+    .contentPos {padding: 0 25% 0 18%;}
+    h1{font-size: 32px;line-height: 40px;}
+}
+
+@media (max-width: 768px){
+     body {font-size: 20px; line-height: 28px; padding: 0 20% 0 15%; background-size: 20%;} 
+    .textPos {padding-right: 10%; padding-left:5%;}
+    .contentPos {padding: 0 10% 0 7%;}
+    .contact {font: 10px/12.5px Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif; font-weight: 900;}
+    h1{font-size: 32px/40px;}
+}
+
+
+@media (max-width: 767px){	
+    body {font-size: 20px; line-height: 30px; padding: 0 20% 0 15%; background-size: 15%; background-position: left top, 100% 5%;  background-attachment: fixed;} 
+    .textPos {padding-right: 10%; padding-left:5%;}
+    .contentPos {padding: 0 10% 0 5%;}
+    .contact {font: 10px/12.5px Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif; font-weight: 900;}
+    .title{font-size: 12px/18px;}
+    h1{font-size: 21px/28px;}
+    
+}
+
+
+
+
+
+
+
+/*
+* {
+margin: 0;
+padding: 0;
+}
+*/
