@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/StudioQuasi/Website/issues"
   },
-  "homepage": "https://github.com/StudioQuasi/Website#readme"
+  "homepage": "https://github.com/StudioQuasi/Website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
