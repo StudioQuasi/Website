@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
-body{font: 24px/32px Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;color:#1F1F21; font-weight: 400;}
+body{position: relative; background-color: #f1f1f1; font: 24px/32px Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;color:#1F1F21; font-weight: 400;}
 /*body {position: relative;background-image: url("images/bg_StudioQuasi.png"); background-repeat: no-repeat;  background-size: 100%; background-attachment: fixed; background-color: #f1f1f1};*/
-body {position: relative;background-image: url("images/bg_studio.png"), url("images/bg_Quasi.png"); background-position: left top, right top; background-repeat: no-repeat; background-size: auto 100%; z-index: 100; background-attachment: fixed; background-color: #f1f1f1};
+/*body {position: relative;background-image: url("images/bg_studio.png"), url("images/bg_Quasi.png"); background-position: left top, right top; background-repeat: no-repeat; background-size: auto 100%; z-index: 1000; background-attachment: fixed; background-color: #f1f1f1};*/
+//body {position: relative; background-color: #f1f1f1;}
+
 p {text-align: left;}
 a {text-decoration:underline; color: inherit; }
 a:hover{color: #ff211f; text-decoration: underline;}
 
 a>img:hover{opacity: 0.7; transition: opacity .5s;}
 
+
+#foreground {
+    width:  100%;
+    color:  #ff0000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:999;
+    background-image: url("images/bg_Studio.png"), url("images/bg_Quasi.png");
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
 .logoRt {position: fixed; size: auto 100%;}
 
