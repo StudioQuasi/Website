@@ -26,7 +26,16 @@ $(function() {
 	  });
 
 	  //Handle the foreground div
-	  console.log($('#foreground').height($(window).height()));
+	  var _h = $(window).height();
+	  var _w = $(window).width();
+
+	  if (_h > .75 * _w) {
+		_h = .75 * _w;
+	  }
+
+	  $('#foreground').height(_h);
+	  $('#foreground').width(_w);
+
 	  //console.log($('#square').width($(window).width()));
 
 	}).resize();

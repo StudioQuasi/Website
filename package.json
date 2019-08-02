@@ -1,0 +1,23 @@
+{
+  "name": "quasi-website",
+  "version": "1.0.0",
+  "description": "Quasi Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StudioQuasi/Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StudioQuasi/Website/issues"
+  },
+  "homepage": "https://github.com/StudioQuasi/Website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
