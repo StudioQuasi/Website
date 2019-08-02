@@ -23,6 +23,8 @@ a>img:hover{opacity: 0.7; transition: opacity .5s;}
     background-position: left top, right top;
     background-repeat: no-repeat;
     background-size: auto 100%;
+    pointer-events:none;
+
 }
 
 .logoRt {position: fixed; size: auto 100%;}
