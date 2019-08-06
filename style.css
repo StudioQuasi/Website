@@ -168,7 +168,7 @@ video iframe{
 @media (max-width: 767px){	
     body {font-size: 20px; line-height: 30px; padding: 0 20% 0 15%; background-size: 15%; background-position: left top, 100% 5%;  background-attachment: fixed;} 
     .textPos {padding-right: 10%; padding-left:5%;}
-    .contentPos {padding: 0 10% 0 5%;}
+    .contentPos {padding: 0 2%;}
     .contact {font: 10px/12.5px Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif; font-weight: 900;}
     .title{font-size: 12px/18px;}
     h1{font-size: 21px/28px;}
