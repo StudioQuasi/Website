@@ -41,6 +41,7 @@ h1>a {text-decoration: none; }
 .back-home a{
     font-size: 24px; 
     font-weight: 900; 
+    padding-left: 2%;
     text-decoration: none;
     -webkit-transition: 
     -webkit-transform .4s ease;
