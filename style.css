@@ -136,6 +136,7 @@ video iframe{
 .header {position: fixed; top: 2.5%; right: 2.5%;}
 .footer {position: fixed; bottom: 3%; left: 1.5%; }
 .header-left {position: fixed; top: 2.5%; left: 2.5%;} 
+.header-left a {text-decoration: none}
 
 .vertical-text {transform: rotate(-90deg); float: left;}
 
